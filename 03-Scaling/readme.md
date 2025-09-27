@@ -40,7 +40,7 @@ aws eks --region ap-south-1 update-kubeconfig --name devopsbykrishna-cluster
 ## **Deploy the application**
 
 kubectl apply -f ds.yml
-it will deploy the wo pods #one for mysqldb, apppod
+it will deploy the two pods #one for mysqldb, apppod
 it will create two services mysqlservice and appservice
 
 now application will be running using Service type as load balancer
